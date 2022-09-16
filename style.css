@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: josefin-sans, sans-serif;
+}
+.cabeçalho{
+    background-image: url(fundo.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;   
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+nav h2{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+span{
+    color: rgb(228, 43, 203);
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color: rgb(228, 43, 203);
+    transform: scale(1.2);
+}
+.main{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: translateY(-50);
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1{
+    color: aliceblue;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.container-btn form{
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+}
+.container-btn form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+}
+.container-btn form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(228, 43, 203);
+    color: aliceblue;
+    box-shadow: 0px 0px 15px #858585;
+    right: 6px;
+    top: 6px;
+}
+.background-color-sobre{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+.background-color-sobre img{
+    width: 295px;
+    height: auto;
+}
+.text-sobre{
+    width: 550px;
+}
+.main-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;    
+}
+.text-sobre h2{
+    color: aliceblue;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: josefin-sans;
+}
+.text-sobre h5{
+    color: aliceblue;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.text-sobre p{
+    color: aliceblue;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.container-serviços{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 8px;
+}
+.title h2{
+    color: aliceblue;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #191919;
+    height: 365px;
+    width: 335px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25x 0px;
+    color: rgb(228, 43, 203);
+}
+.card h5{
+    margin-top: 3%;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.card p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.btn{
+    border: none;
+    padding: 18px;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(228, 43, 203);
+    cursor: pointer;
+}
+footer{
+    background-color: #191919;
+    width: 100%;
+    padding: 10px 2px;
+    text-align: center;
+}
+footer h4{
+    padding: 8px
+}
+footer i{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 25px 15px;
+    color: rgb(228, 43, 203);
+}
